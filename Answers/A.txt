@@ -1,0 +1,8 @@
+1. Differences between abstract class and interface:
+	a. interface only has the signatures of methods in it.
+	b. abstract class is a class, so it can have implementation in it.
+2. Property in C#: it can be a public member in a class for private variables, but we can control its setter and getter to make it be accessible or not.
+   Attribute in C#: 
+3. Dead lock of threads: is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does.
+4. memory leak: Program does not release the memory allocation correctly.
+5. singleton pattern:

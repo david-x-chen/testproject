@@ -1,0 +1,12 @@
+USE TestDB;
+GO
+
+CREATE TABLE Patient
+(
+	PatientId INT IDENTITY(1,1) PRIMARY KEY,
+	Name NVARCHAR(100),
+	CardNo NVARCHAR(50),
+	IdentityNo NVARCHAR(100),
+	Gender bit,
+	Birth DATETIME
+)
